@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fdf1ad;
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+} 
+
+ul {
+list-style: none;
+}
+
+
+#tast li {
+  padding: 15px;
+}
+
+#task li:nth-child(even) {         
+  background-color: #ff9752;
+}
+
+/* () in Klammen kann Zahl sein, 1 - erste element usw.;
+last-child- letste element;
+first-child -erste element; die brauchen kein Klammen!!!
+nth-child - nechiotnoe cislo.
+1 - st;
+2- nd;
+*/
+
+
+#task li:hover {
+  background-color: #ffc266;
+}
